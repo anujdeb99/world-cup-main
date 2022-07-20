@@ -55,7 +55,7 @@ body{
 }
 /* -------------end header style----------- */
 
-/* -------------live play style------------ */
+/* -------------start live play style------------ */
 .live-playes{
     margin-top: 130px;
 
@@ -70,6 +70,10 @@ body{
     width: 312px;
     height: 362px;
     margin-top: 20px;
+}
+.play .play-image img{
+    width: 312px;
+    height: 175px;
 }
 .play-info{
     margin-left: 20px;
@@ -91,7 +95,37 @@ body{
     display: flex;
     align-items: center;
 }
-.play .play-image img{
-    width: 312px;
-    height: 175px;
+/*------------ end live play style------------ */
+
+
+/* ----------start fotter style-------- */
+
+footer{
+    background-color: #161616;
+    height: 444px;
+    margin-top: 130px;
+}
+h1{
+    padding-top: 130px;
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    margin-bottom: 50px;
+}
+hr{ margin-bottom: 50px;
+    width: 95%;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    margin: auto;
+}
+.contact-area{
+    display: flex;
+    text-align: center;
+    color:#B9B9B9;
+    margin: 15px;
+    margin-top: 50px;
+    margin-left: 15.94%;
+    margin-right: 15.94%;
+}
+.contact-area h4{
+    margin:30px;
 }
