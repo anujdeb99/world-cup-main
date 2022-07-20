@@ -7,65 +7,68 @@ body{
     font-family: 'Poppins', sans-serif;    
 }
 /*---------header style ----------*/
-.background-area{
+.background-color{
+    display: flex;
     background-color: #161616;
-    height: 646px;
     width: 1321px;
-    margin: auto;
+    height: 646px;
     border-radius: 30px;
     margin-top: 50px;
-}
-.cover-area{
-    display: flex;
+    margin-left: 15px;
 
 }
 .half-width{
     width: 50%;
 }
-.show-on{
-    color: white;
-    margin-left: 106px;
+.play-title{
+    margin-left: 100px;
     margin-top: 111px;
+
 }
-.show-on h1{
+.show-on-title{
     line-height: 1em;
     font-size: 70px;
-}
-.show-on p{
-    width: 506px;
-    height: 76px;
-    margin-top: 20px;
-    font-size: 16px;
-}
-.show-on button{
-    background-color: #DD0000;
     color: white;
-    height: 50px;
-    width: 160px;
+    padding-bottom: 20px;
+
+}
+.half-width p{
+    font-size: 16px;
+    padding-top: 30px;
+    color: white;
+}
+.half-width button{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+    background-color: #DD0000;
+    width: 187px;
+    height: 56px;
     border: none;
     border-radius: 5px;
-    margin-top: 20px;
-    font-size: 20px;
 }
-.half-width,.cover-image img{
-    height: 613px;
+.half-width img{
+    padding-top: 33px;
     width: 581px;
-    padding-top: 17px;
-    padding-left: 35px;
+    height: 613px;
 }
 /* -------------end header style----------- */
 
 /* -------------start live play style------------ */
 .live-playes{
     margin-top: 130px;
+    display: flex;
+    justify-content: center;
 
 }
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
 }
 .play{
-    border: 1px solid gray;
+    border: 1px solid #dadbdf;
     border-radius:10px;
     width: 312px;
     height: 362px;
@@ -80,6 +83,7 @@ body{
 }
 .play-info button{
     background-color: white;
+    font-size: 18px;
     width: 100px;
     height: 32px;
     border: 1px solid black;
@@ -89,11 +93,16 @@ body{
 .play-description{
     margin-top: 15px;
 }
+.play-comment{
+    padding-left: 30px;
+}
 .play-duration{
+    color: #808080;
     margin-left: 20px;
     margin-top: 20px;
     display: flex;
     align-items: center;
+    
 }
 /*------------ end live play style------------ */
 
@@ -105,7 +114,7 @@ footer{
     height: 444px;
     margin-top: 130px;
 }
-h1{
+.goal{
     padding-top: 130px;
     text-align: center;
     color: white;
@@ -123,9 +132,9 @@ hr{ margin-bottom: 50px;
     color:#B9B9B9;
     margin: 15px;
     margin-top: 50px;
-    margin-left: 15.94%;
+    margin-left: 19.94%;
     margin-right: 15.94%;
 }
 .contact-area h4{
-    margin:30px;
+    margin:20px;
 }
