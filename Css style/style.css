@@ -56,9 +56,41 @@ body{
 /* -------------end header style----------- */
 
 /* -------------live play style------------ */
+.live-playes{
+    margin-top: 130px;
 
-
-
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.play{
+    border: 1px solid gray;
+    border-radius:10px;
+    width: 312px;
+    height: 362px;
+    margin-top: 20px;
+}
+.play-info{
+    margin-left: 20px;
+}
+.play-info button{
+    background-color: white;
+    width: 100px;
+    height: 32px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.play-description{
+    margin-top: 15px;
+}
+.play-duration{
+    margin-left: 20px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
 .play .play-image img{
     width: 312px;
     height: 175px;
