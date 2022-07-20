@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Poppins', sans-serif;    
+}
+/*---------header style ----------*/
+.background-area{
+    background-color: #161616;
+    height: 646px;
+    width: 1321px;
+    margin: auto;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+.cover-area{
+    display: flex;
+
+}
+.half-width{
+    width: 50%;
+}
+.show-on{
+    color: white;
+    margin-left: 106px;
+    margin-top: 111px;
+}
+.show-on h1{
+    line-height: 1em;
+    font-size: 70px;
+}
+.show-on p{
+    width: 506px;
+    height: 76px;
+    margin-top: 20px;
+    font-size: 16px;
+}
+.show-on button{
+    background-color: #DD0000;
+    color: white;
+    height: 50px;
+    width: 160px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.half-width,.cover-image img{
+    height: 613px;
+    width: 581px;
+    padding-top: 17px;
+    padding-left: 35px;
+}
+/* -------------end header style----------- */
+
+/* -------------live play style------------ */
+
+
+
+.play .play-image img{
+    width: 312px;
+    height: 175px;
+}
